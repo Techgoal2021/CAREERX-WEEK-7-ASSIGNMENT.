@@ -1,0 +1,33 @@
+
+
+{
+  "name": "nodejs-intro",
+  "version": "1.0.0",
+  "description": "A Lost and Found system built with Node.js, Express.js, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "api",
+    "backend",
+    "server-side",
+    "javascript",
+    "lost-and-found"
+  ],
+  "author": "john sowemimo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
